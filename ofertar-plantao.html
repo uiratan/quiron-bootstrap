@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+
+  <title>Quíron</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0"><img class="d-block" src="assets/logo-quiron.png" alt="Logo do Sistema Quíron"></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meus plantões</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Pesquise um plantão"
+            aria-label="Pesquisar">
+          <button class="btn btn-light rounded-0" type="submit">Procurar</button>
+        </form>
+      </div>
+
+
+
+    </div>
+  </nav>
+
+  <h1 class="container text-center my-5">Ofertar plantão</h1>
+
+
+
+
+  <form class="row g-3 p-3">
+
+    <div class="col-12">
+      <label for="inputEmail4" class="form-label">Local</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+
+    <div class="col-12">
+      <label for="inputPassword4" class="form-label">Data Inicial</label>
+      <input type="datetime-local" value="" class="form-control" id="inputPassword4">
+    </div>
+
+    <div class="col-12">
+      <label for="inputPassword4" class="form-label">Data Final</label>
+      <input type="datetime-local" class="form-control" id="inputPassword4">
+    </div>
+
+    <div class="col">
+      <label for="inputAddress2" class="form-label">Valor</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="R$ 1.500,00">
+    </div>
+
+    <div class="col">
+      <label for="inputCity" class="form-label">Forma de pagamento</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+
+    <div class="form-switch col">
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked">Pagamento antecipado</label>
+    </div>
+    
+
+    <div class="col-12 align-items-center">
+      <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+    </div>
+
+  </form>
+
+
+
+
+
+  <footer class="text-center text-bg-dark">
+    <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Uiratan Cavalcante</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
